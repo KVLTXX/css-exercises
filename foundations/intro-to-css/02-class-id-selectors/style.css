@@ -1,0 +1,23 @@
+.odd, .coolerodd {
+  background-color: rgb(255, 164, 164);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+
+}
+
+.coolerodd {
+
+    font-size: 24px;
+}
+
+#Two {
+    Color: blue;
+    font-size: 36px;
+}
+
+#Four{
+
+    background-color: rgb(168, 255, 168);
+    font-size: 24px;
+    font-weight: bold;
+}
