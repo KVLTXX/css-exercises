@@ -43,6 +43,44 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+li {
   list-style-type: none;
+}
+
+/* Some flexbox stuff */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px
+  
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  padding: 8px;
+  
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-image {
+  margin: 8px;
 }
